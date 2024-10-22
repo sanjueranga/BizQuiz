@@ -55,6 +55,8 @@ body {
   height: auto;
 }
 
+
+
 .main-title {
   color: var(--primary-navy);
   font-size: 2.5rem;
@@ -161,6 +163,7 @@ body {
 }
 
 .question-button {
+  height: 8rem;
   padding: 1.5rem;
   border: none;
   border-radius: 8px;
@@ -196,7 +199,7 @@ body {
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
-  margin-top : 2rem;
+  margin-top: 2rem;
 }
 
 .secondary-btn {
@@ -216,15 +219,15 @@ body {
 
 /* Question Display Styles */
 .question-container {
-  background-color: var(--white);
+  background-color: rgb(53, 53, 83);
   padding: 2rem;
   border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  margin-top:4rem;
+  margin-top: 4rem;
 }
 
 .question-text {
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   margin: 1.5rem 0;
   padding: 1rem;
   background-color: var(--gray-light);
@@ -234,6 +237,7 @@ body {
 .choices-list {
   list-style: none;
   margin: 1rem 0;
+  font-size: 1.5rem;
 }
 
 .choices-list li {
@@ -243,6 +247,20 @@ body {
   border-radius: 6px;
   cursor: pointer;
   transition: all 0.3s ease;
+}
+
+
+.choice-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.choice-en {
+  text-align: left;
+}
+
+.choice-si {
+  text-align: right;
 }
 
 .choices-list li:hover {

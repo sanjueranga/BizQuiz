@@ -44,8 +44,21 @@ function renderQuestionsGrid() {
         displayQuestion(index);
       };
     }
+
     questionGrid.appendChild(button);
   });
+
+  // Add additional button if the current round is 1
+  if (currentRound === 1) {
+    const bonusButton = document.createElement("button");
+    bonusButton.innerHTML = "Bonus Questions";
+    bonusButton.className = "question-button";
+    bonusButton.style.backgroundColor = "#ff5722";
+    bonusButton.onclick = () => {
+      window.location.href = "bonus.html";
+    };
+    questionGrid.appendChild(bonusButton);
+  }
 
   // Show Undo button if there was a previously selected question
   if (selectedQuestionIndex >= 0) {
@@ -72,7 +85,8 @@ function displayQuestion(index) {
 
     // Display both English and Sinhala questions
     document.getElementById("open-ended-text").innerHTML = `
-      <p> ${question.question.en}</p>
+      <p> <strong>${question.question.en}</strong></p>
+      </br>
       <p>${question.question.si}</p>
     `;
 
@@ -85,7 +99,8 @@ function displayQuestion(index) {
 
     // Display both English and Sinhala questions
     document.getElementById("question-text").innerHTML = `
-      <p>${question.question.en}</p>
+      <p> <strong>${question.question.en}</strong></p>
+      </br>
       <p>${question.question.si}</p>
     `;
 
@@ -95,7 +110,11 @@ function displayQuestion(index) {
     // Display multiple choices in both languages
     question.choices.en.forEach((choiceEn, idx) => {
       const li = document.createElement("li");
-      li.innerHTML = `${choiceEn} &nbsp;&nbsp; ${question.choices.si[idx]}`;
+      li.innerHTML = `
+        <span class="choice-en">${choiceEn}</span>
+        <span class="choice-si">${question.choices.si[idx]}</span>
+      `;
+      li.classList.add("choice-item");
       choicesList.appendChild(li);
     });
   }
