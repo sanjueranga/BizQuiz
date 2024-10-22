@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biz Quiz - Round 3</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="round3.js" defer></script>
+    <script src="script.js" defer></script>
+
+    <!-- Load round3.js -->
+  </head>
+  <body>
+    <div class="container">
+      <!-- Question Display Page -->
+      <div id="display-question" class="question-container">
+        <!-- Open-ended Question Text -->
+        <div id="open-ended" class="hidden">
+          <div id="open-ended-text" class="open-ended-text"></div>
+        </div>
+
+        <!-- Multiple Choice Question Text -->
+        <div id="multiple-choice" class="hidden">
+          <div id="question-text" class="question-text"></div>
+          <ul id="choices-list" class="choices-list"></ul>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="action-buttons">
+          <button
+            class="control-btn secondary-btn"
+            id="next-button"
+            onclick="nextQuestion()"
+          >
+            Next Question
+          </button>
+          <button
+            class="control-btn secondary-btn"
+            onclick="window.location.href='index.html'"
+          >
+            Back
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

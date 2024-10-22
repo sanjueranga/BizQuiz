@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biz Quiz 24</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Round Selection Page -->
+      <div id="round-selection">
+        <div class="header-layout">
+          <div class="middle-content">
+            <div class="logo-sired">
+              <img src="SIRED.PNG" alt="Logo 1" class="logo2" />
+            </div>
+            <div class="logo-main">
+              <img src="bizquiz black.png" alt="Logo 2" class="logo" />
+            </div>
+            <h1 class="society-title">
+              Society of Industrial Relations and Entrepreneurship Development
+            </h1>
+            <h2 class="university-name">Univesity of Peradeniya</h2>
+          </div>
+        </div>
+
+        <div class="round-buttons">
+          <button class="round-btn" onclick="loadQuestions(1)">
+            <span class="round-number">Round 1</span>
+          </button>
+          <button class="round-btn" onclick="loadQuestions(2)">
+            <span class="round-number">Round 2</span>
+          </button>
+          <!-- Round 3 Button -->
+            <button class="round-btn" onclick="window.location.href='round.html'">
+            <span class="round-number">Round 3</span>
+            </button>
+        </div>
+      </div>
+
+      <!-- Question Pool Page -->
+      <div id="question-pool" class="hidden">
+        <div class="header-small">
+          <h2>Select a Question</h2>
+        </div>
+        <div id="questions-grid"></div>
+        <div class="action-buttons">
+          <button
+            id="undo-button"
+            class="hidden control-btn secondary-btn"
+            onclick="undoLastSelection()"
+          >
+            Undo Last Selection
+          </button>
+          <button onclick="resetRound()" class="control-btn warning-btn">
+            Reset Current Round
+          </button>
+          <button
+            onclick="backToRoundSelection()"
+            class="control-btn secondary-btn"
+          >
+            Back to Round Selection
+          </button>
+        </div>
+      </div>
+
+      <!-- Question Display Page -->
+      <div id="display-question" class="hidden question-container">
+        <!-- Open-ended Question Text -->
+        <div id="open-ended" class="hidden">
+          <div id="open-ended-text" class="open-ended-text"></div>
+        </div>
+
+        <!-- Multiple Choice Question Text -->
+        <div id="multiple-choice" class="hidden">
+          <div id="question-text" class="question-text"></div>
+          <ul id="choices-list" class="choices-list"></ul>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="action-buttons">
+          <button class="control-btn secondary-btn" onclick="backToQuestions()">
+            Back
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="round1.js"></script>
+    <script src="round2.js"></script>
+    <script src="scripts.js"></script>
+  </body>
+</html>

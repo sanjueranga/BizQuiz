@@ -1,0 +1,339 @@
+/* Modern CSS with orange and navy blue accent colors */
+:root {
+  --primary-navy: #1a237e;
+  --primary-orange: #ff5722;
+  --navy-light: #303f9f;
+  --orange-light: #ff7043;
+  --gray-light: #f5f5f5;
+  --gray-medium: #e0e0e0;
+  --text-dark: #212121;
+  --text-light: #757575;
+  --white: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: var(--gray-light);
+  color: var(--text-dark);
+  line-height: 1.6;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 1rem 4rem;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Header Styles */
+.header {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding: 2rem;
+  background-color: var(--white);
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.logo {
+  width: 400px;
+  height: auto;
+}
+
+.main-title {
+  color: var(--primary-navy);
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+}
+
+.competition-info {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.event-date,
+.event-venue {
+  color: var(--primary-orange);
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.event-details {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background-color: var(--gray-light);
+  border-radius: 8px;
+}
+
+.event-details ul {
+  list-style-position: inside;
+  margin-top: 0.5rem;
+}
+
+.logo-main {
+  scale: 1.5;
+  transform: translateX(10px);
+}
+
+.logo-sired {
+  scale: 0.65;
+}
+
+/* Round Selection Buttons */
+.round-buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4rem;
+  margin: 4rem 8rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.round-btn {
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  padding: 1.5rem;
+  min-height: 200px;
+  border: none;
+  border-radius: 12px;
+  background-color: var(--primary-navy);
+  color: var(--white);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.round-btn:hover {
+  background-color: var(--navy-light);
+  transform: translateY(-2px);
+}
+
+.round-number {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.round-desc {
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+/* Question Pool Styles */
+.header-small {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background-color: var(--white);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo-small {
+  width: 50px;
+  height: 50px;
+}
+
+#questions-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.question-button {
+  padding: 1.5rem;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--primary-navy);
+  color: var(--white);
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.question-button:hover:not(:disabled) {
+  background-color: var(--navy-light);
+  transform: translateY(-2px);
+}
+
+.question-button:disabled {
+  background-color: var(--text-light);
+  cursor: not-allowed;
+}
+
+/* Action Buttons */
+.action-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.control-btn {
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top : 2rem;
+}
+
+.secondary-btn {
+  background-color: var(--white);
+  color: var (--primary-navy);
+  border: 2px solid var(--primary-navy);
+}
+
+.warning-btn {
+  background-color: var(--primary-orange);
+  color: var(--white);
+}
+
+.warning-btn:hover {
+  background-color: var(--orange-light);
+}
+
+/* Question Display Styles */
+.question-container {
+  background-color: var(--white);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top:4rem;
+}
+
+.question-text {
+  font-size: 1.2rem;
+  margin: 1.5rem 0;
+  padding: 1rem;
+  background-color: var(--gray-light);
+  border-radius: 8px;
+}
+
+.choices-list {
+  list-style: none;
+  margin: 1rem 0;
+}
+
+.choices-list li {
+  padding: 1rem;
+  margin: 0.5rem 0;
+  background-color: var(--gray-light);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.choices-list li:hover {
+  background-color: var(--gray-medium);
+}
+/* Open-ended Question Styles */
+.open-ended-text {
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-align: center;
+  padding: 2rem;
+  margin: 2rem 0;
+  background-color: var(--gray-light);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: var(--primary-navy);
+}
+
+
+.hero-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+.logo-container {
+  margin-bottom: 20px;
+}
+
+.logo2 {
+  width: 300px;
+  height: auto;
+}
+
+.middle-content {
+  flex: 2;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.society-title {
+  margin-top: 2.5rem;
+  font-family: "ubuntu";
+  color: var(--primary-navy);
+  font-size: 1.5rem;
+  line-height: 1.3;
+  text-transform: capitalize;
+}
+
+.university-name {
+  color: var(--primary-orange);
+  font-family: "ubuntu";
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+  text-transform: capitalize;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+  .header-layout {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .logo-wrapper {
+    justify-content: center;
+  }
+
+  .middle-content {
+    order: -1;
+  }
+
+  .society-title {
+    font-size: 1.8rem;
+  }
+
+  .university-name {
+    font-size: 1.3rem;
+  }
+
+  .logo,
+  .logo2 {
+    width: 250px;
+  }
+
+  .round-buttons {
+    margin: 2rem;
+    gap: 1rem;
+  }
+}
