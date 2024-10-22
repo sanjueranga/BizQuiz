@@ -34,7 +34,7 @@ function renderQuestionsGrid() {
   currentRoundQuestions.forEach((question, index) => {
     const button = document.createElement("button");
     button.className = "question-button";
-    button.innerHTML = `Question ${index + 1}`;
+    button.innerHTML = `${index + 1}`;
 
     if (question.taken) {
       button.disabled = true; // Disable if already taken

@@ -34,7 +34,11 @@ function displayQuestion(index) {
 
     question.choices.en.forEach((choiceEn, idx) => {
       const li = document.createElement("li");
-      li.innerHTML = `${choiceEn} &nbsp;&nbsp; ${question.choices.si[idx]}`;
+      li.innerHTML = `
+          <span class="choice-en">${choiceEn}</span>
+          <span class="choice-si">${question.choices.si[idx]}</span>
+        `;
+      li.classList.add("choice-item");
       choicesList.appendChild(li);
     });
   }

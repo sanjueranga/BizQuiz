@@ -1,7 +1,6 @@
 let currentRoundQuestions = [];
 let currentQuestionIndex = 0; // Track the current question index
 
-
 // Load the questions for round 3
 function loadQuestionsRound3() {
   currentRoundQuestions = round3Questions; // Directly use round3Questions
@@ -35,7 +34,10 @@ function displayQuestion(index) {
 
     question.choices.en.forEach((choiceEn, idx) => {
       const li = document.createElement("li");
-      li.innerHTML = `${choiceEn} &nbsp;&nbsp; ${question.choices.si[idx]}`;
+      li.innerHTML = `
+      <span class="choice-en">${choiceEn}</span>
+      <span class="choice-si">${question.choices.si[idx]}</span>
+    `;
       choicesList.appendChild(li);
     });
   }
