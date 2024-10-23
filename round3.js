@@ -145,7 +145,7 @@ const round3Questions = [
   },
   {
     question: {
-      en: "After Effects is visual effects software made by which company?",
+      en: "After Effects and visual effects software made by which company?",
       si: "After Effects සහ visual effects යෙදවුම් හඳුන්වා දුන්නේ කුමන ආයතනය විසින්ද?",
     },
     type: "open-ended",

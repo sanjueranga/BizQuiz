@@ -1,32 +1,6 @@
 const bonusQuestions = [
   {
     question: {
-      en: "What is a monopoly?",
-      si: "ඒකාධිකාරයක් යනු කුමක්ද?",
-    },
-    type: "multiple-choice",
-    choices: {
-      en: [
-        "a) A market structure with many firms competing",
-        "b) A market structure where one firm controls the entire market",
-        "c) A type of government intervention in the economy",
-        "d) A situation where prices are set by supply and demand",
-      ],
-      si: [
-        "අ) බොහෝ සමාගම් තරඟ කරන වෙළඳපල ව්‍යුහයක්",
-        "b) එක් සමාගමක් මුළු වෙළඳපලම පාලනය කරන වෙළඳපල ව්‍යුහයක්",
-        "ඇ) ආර්ථිකය තුළ රජයේ මැදිහත්වීම් වර්ගයකි",
-        "ඈ) සැපයුම සහ ඉල්ලුම අනුව මිල නියම කරන තත්වයක්",
-      ],
-    },
-    taken: false,
-    answer: {
-      en: "b) A market structure where one firm controls the entire market",
-      si: "b) එක් සමාගමක් මුළු වෙළඳපලම පාලනය කරන වෙළඳපල ව්‍යුහයක්",
-    },
-  },
-  {
-    question: {
       en: "What is the primary function of the World Trade Organization (WTO)?",
       si: "ලෝක වෙළඳ සංවිධානයේ (WTO) මූලික කාර්යය කුමක්ද?",
     },
@@ -39,16 +13,16 @@ const bonusQuestions = [
         "d) To manage monetary policies globally",
       ],
       si: [
-        "අ) සංවර්ධනය වෙමින් පවතින රටවලට ණය ලබා දීම",
-        "ආ) විදේශ විනිමය අනුපාත නියාමනය කිරීම",
-        "ඇ) ජාත්‍යන්තර වෙළඳ ගිවිසුම් අධීක්ෂණය සහ පහසුකම් සැලසීම",
-        "ඈ) ගෝලීය වශයෙන් මුදල් ප්‍රතිපත්ති කළමනාකරණය කිරීම",
+        "a) සංවර්ධනය වෙමින් පවතින රටවලට ණය ලබා දීම",
+        "b) විදේශ විනිමය අනුපාත නියාමනය කිරීම",
+        "c) ජාත්‍යන්තර වෙළඳ ගිවිසුම් අධීක්ෂණය සහ පහසුකම් සැලසීම",
+        "d) ගෝලීය වශයෙන් මුදල් ප්‍රතිපත්ති කළමනාකරණය කිරීම",
       ],
     },
     taken: false,
     answer: {
       en: "c) To oversee and facilitate international trade agreements",
-      si: "ඇ) ජාත්‍යන්තර වෙළඳ ගිවිසුම් අධීක්ෂණය සහ පහසුකම් සැලසීම",
+      si: "c) ජාත්‍යන්තර වෙළඳ ගිවිසුම් අධීක්ෂණය සහ පහසුකම් සැලසීම",
     },
   },
   {
@@ -65,16 +39,16 @@ const bonusQuestions = [
         "d) A recession in the economy",
       ],
       si: [
-        "අ) පාරිභෝගික වියදම් අඩු වීම",
-        "ආ) ජීවන වියදම වැඩිවීම",
-        "ඇ) ආර්ථික ස්ථාවරත්වය",
-        "ඈ) ආර්ථිකයේ අවපාතයක්",
+        "a) පාරිභෝගික වියදම් අඩු වීම",
+        "b) ජීවන වියදම වැඩිවීම",
+        "c) ආර්ථික ස්ථාවරත්වය",
+        "d) ආර්ථිකයේ අවපාතයක්",
       ],
     },
     taken: false,
     answer: {
       en: "b) An increase in the cost of living",
-      si: "ආ) ජීවන වියදම වැඩිවීම",
+      si: "b) ජීවන වියදම වැඩිවීම",
     },
   },
   {
@@ -91,141 +65,141 @@ const bonusQuestions = [
         "d) To oversee consumer protection laws",
       ],
       si: [
-        "අ) ආයතනික බදු අනුපාත නියම කිරීම",
-        "ආ) ජාත්‍යන්තර වෙළඳාම නියාමනය කිරීම",
-        "ඇ) මුදල් ප්‍රතිපත්තිය පාලනය කිරීම සහ උද්ධමනය කළමනාකරණය කිරීම",
-        "ඈ) පාරිභෝගික ආරක්ෂණ නීති අධීක්ෂණය කිරීම",
+        "a) ආයතනික බදු අනුපාත නියම කිරීම",
+        "b) ජාත්‍යන්තර වෙළඳාම නියාමනය කිරීම",
+        "c) මුදල් ප්‍රතිපත්තිය පාලනය කිරීම සහ උද්ධමනය කළමනාකරණය කිරීම",
+        "d) පාරිභෝගික ආරක්ෂණ නීති අධීක්ෂණය කිරීම",
       ],
     },
     taken: false,
     answer: {
       en: "c) To control monetary policy and manage inflation",
-      si: "ඇ) මුදල් ප්‍රතිපත්තිය පාලනය කිරීම සහ උද්ධමනය කළමනාකරණය කිරීම",
+      si: "c) මුදල් ප්‍රතිපත්තිය පාලනය කිරීම සහ උද්ධමනය කළමනාකරණය කිරීම",
     },
   },
   {
     question: {
-      en: "The Goods and Services Tax (GST) was introduced to create what?",
-      si: "භාණ්ඩ හා සේවා බද්ද (GST) හඳුන්වා දුන්නේ කුමක්ද?",
+      en: "Who is a co-founder of the popular ride-sharing company Uber?",
+      si: "‘Uber’ වෙළඳ සමාගමේ නිර්මාතෘවරයෙක් වන්නේ කවුරුන්ද?",
     },
     type: "multiple-choice",
     choices: {
       en: [
-        "A) Multiple tax regimes",
-        "B) Unified national market",
-        "C) Increased tax rates",
-        "D) None of the above",
+        "a) Travis Kalanick",
+        "b) Donald Trump",
+        "c) Brian Chesky",
+        "d) Reid Hoffman",
       ],
       si: [
-        "A) බහු බදු තන්ත්‍ර",
-        "B) ඒකාබද්ධ ජාතික වෙළෙඳපොළ",
-        "C) බදු අනුපාත වැඩි කිරීම",
-        "D) ඉහත කිසිවක් නොවේ",
+        "a) ට්‍රැවිස් කලනික්",
+        "b) ඩොනල්ඩ් ට්රම්ප්",
+        "c) බ්රයන් චෙස්කි",
+        "d) රීඩ් හොෆ්මන්",
       ],
     },
     taken: false,
     answer: {
-      en: "B) Unified national market",
-      si: "B) ඒකාබද්ධ ජාතික වෙළෙඳපොළ",
+      en: "a) Travis Kalanick",
+      si: "a) ට්‍රැවිස් කලනික්",
     },
   },
   {
     question: {
-      en: "Which of the following is NOT a type of market structure in economics?",
-      si: "ආර්ථික විද්‍යාවේ වෙළඳපල ව්‍යුහයක් නොවන පහත සඳහන් කවරක් ද?",
+      en: "Which of the following is considered a major risk in the current business environment?",
+      si: "වත්මන් ව්‍යාපාරික පරිසරය තුළ පහත සඳහන් දේවලින් ප්‍රධාන අවදානමක් ලෙස සලකන්නේ කුමක්ද?",
     },
     type: "multiple-choice",
     choices: {
       en: [
-        "A) Monopoly",
-        "B) Oligopoly",
-        "C) Capitalism",
-        "D) Perfect competition",
-      ],
-      si: ["A) ඒකාධිකාරය", "B) ඔලිගොපොලි", "C) ධනවාදය", "D) පරිපූර්ණ තරඟය"],
-    },
-    taken: false,
-    answer: {
-      en: "C) Capitalism",
-      si: "C) ධනවාදය",
-    },
-  },
-  {
-    question: {
-      en: "Which of the following is a common effect of inflation?",
-      si: "උද්ධමනයේ පොදු ප්‍රතිවිපාකය වන්නේ පහත සඳහන් කවරක් ද?",
-    },
-    type: "multiple-choice",
-    choices: {
-      en: [
-        "A) Decrease in the cost of goods and services",
-        "B) Increase in the purchasing power of money",
-        "C) Increase in the general price level of goods and services",
-        "D) Increase in the unemployment rate",
+        "a) Low competition",
+        "b) Economic stability",
+        "c) Cybersecurity threats",
+        "d) Abundance of resources",
       ],
       si: [
-        "A) භාණ්ඩ හා සේවාවල මිල අඩුවීම",
-        "B) මුදල් මිලදී ගැනීමේ හැකියාව වැඩි වීම",
-        "C) භාණ්ඩ හා සේවාවල සාමාන්‍ය මිල මට්ටම ඉහළ යාම",
-        "D) විරැකියා අනුපාතය වැඩිවීම",
+        "a) අඩු තරඟකාරිත්වය",
+        "b) ආර්ථික ස්ථාවරත්වය",
+        "c) සයිබර් ආරක්ෂණ තර්ජන",
+        "d) සම්පත් බහුලත්වය",
       ],
     },
     taken: false,
     answer: {
-      en: "C) Increase in the general price level of goods and services",
-      si: "C) භාණ්ඩ හා සේවාවල සාමාන්‍ය මිල මට්ටම ඉහළ යාම",
+      en: "c) Cybersecurity threats",
+      si: "c) සයිබර් ආරක්ෂණ තර්ජන",
     },
   },
   {
     question: {
-      en: "Which economic theory emphasizes the role of government intervention in the economy?",
-      si: "ආර්ථිකය තුළ රජයේ මැදිහත්වීමේ භූමිකාව අවධාරණය කරන න්‍යාය කුමක්ද?",
+      en: "Which entrepreneur is known for founding the cosmetics company Fenty Beauty?",
+      si: "‘Fenty Beauty’ රූපලාවන්‍ය නිෂ්පාදන සමාගම ආරම්භ කිරීම සඳහා ප්‍රසිද්ධියට පත් ව්‍යවසායකයා කවුද?",
     },
     type: "multiple-choice",
     choices: {
       en: [
-        "A) Classical Economics",
-        "B) Keynesian Economics",
-        "C) Monetarism",
-        "D) Supply-Side Economics",
+        "a) Kylie Jenner",
+        "b) Rihanna",
+        "c) Estee Lauder",
+        "d) Bobbi Brown",
+      ],
+      si: ["a) කයිලි ජෙනර්", "b) රිහානා", "c) එස්ටී ලෝඩර්", "d) බොබී බ්රවුන්"],
+    },
+    taken: false,
+    answer: {
+      en: "b) Rihanna",
+      si: "b) රිහානා",
+    },
+  },
+  {
+    question: {
+      en: "Which theory emphasizes the role of government intervention in the economy?",
+      si: "ආර්ථිකය කෙරෙහි රජයෙහි මැදිහත්වීම අවධාරණය කරනු ලබන න්‍යාය කුමක්ද?",
+    },
+    type: "multiple-choice",
+    choices: {
+      en: [
+        "a) Classical Economics",
+        "b) Keynesian Economics",
+        "c) Monetarism",
+        "d) Supply Economics",
       ],
       si: [
-        "A) සම්භාව්‍ය ආර්ථික විද්‍යාව",
-        "B) කේන්සියානු ආර්ථික විද්යාව",
-        "C) මුදල්වාදය",
-        "D) සැපයුම් පැත්තේ ආර්ථික විද්යාව",
+        "a) සම්භාව්‍ය ආර්ථික විද්‍යාව",
+        "b) කේන්සියානු ආර්ථික විද්යාව",
+        "c) මුදල්වාදය",
+        "d) සැපයුම් ආර්ථික විද්යාව",
       ],
     },
     taken: false,
     answer: {
-      en: "B) Keynesian Economics",
-      si: "B) කේන්සියානු ආර්ථික විද්යාව",
+      en: "b) Keynesian Economics",
+      si: "b) කේන්සියානු ආර්ථික විද්යාව",
     },
   },
   {
     question: {
       en: "Which of the following is considered a leading economic indicator?",
-      si: "පහත සඳහන් දේවලින් ප්‍රමුඛ ආර්ථික දර්ශකයක් ලෙස සලකන්නේ කුමක්ද?",
+      si: "පහත සඳහන් දේ වලින් ප්‍රමුඛ ආර්ථික දර්ශකයක් ලෙස සලකන්නේ කුමක්ද?",
     },
     type: "multiple-choice",
     choices: {
       en: [
-        "A) Unemployment rate",
-        "B) Consumer Price Index (CPI)",
-        "C) Stock market performance",
-        "D) Gross Domestic Product (GDP)",
+        "a) Unemployment rate",
+        "b) Consumer Price Index (CPI)",
+        "c) Stock market performance",
+        "d) Gross Domestic Product (GDP)",
       ],
       si: [
-        "A) විරැකියා අනුපාතය",
-        "B) පාරිභෝගික මිල දර්ශකය (CPI)",
-        "C) කොටස් වෙළෙඳපොළ කාර්ය සාධනය",
-        "D) දළ දේශීය නිෂ්පාදිතය (GDP)",
+        "a) විරැකියා අනුපාතය",
+        "b) පාරිභෝගික මිල දර්ශකය (CPI)",
+        "c) කොටස් වෙළෙඳපොළ කාර්ය සාධනය",
+        "d) දළ දේශීය නිෂ්පාදිතය (GDP)",
       ],
     },
     taken: false,
     answer: {
-      en: "C) Stock market performance",
-      si: "C) කොටස් වෙළෙඳපොළ කාර්ය සාධනය",
+      en: "c) Stock market performance",
+      si: "c) කොටස් වෙළෙඳපොළ කාර්ය සාධනය",
     },
   },
   {
@@ -236,48 +210,100 @@ const bonusQuestions = [
     type: "multiple-choice",
     choices: {
       en: [
-        "A) The total revenue of a company",
-        "B) The total value of a company's outstanding shares of stock",
-        "C) The total debt of a company",
-        "D) The total assets of a company",
+        "a) The total revenue of a company",
+        "b) The total value of a company's outstanding shares of stock",
+        "c) The total debt of a company",
+        "d) The total assets of a company",
       ],
       si: [
-        "A) සමාගමක මුළු ආදායම",
-        "B) සමාගමක කැපී පෙනෙන කොටස්වල මුළු වටිනාකම",
-        "C) සමාගමක සම්පූර්ණ ණය",
-        "D) සමාගමක මුළු වත්කම්",
+        "a) සමාගමක මුළු ආදායම",
+        "b) සමාගමක කැපී පෙනෙන කොටස්වල මුළු වටිනාකම",
+        "c) සමාගමක සම්පූර්ණ ණය",
+        "d) සමාගමක මුළු වත්කම්",
       ],
     },
     taken: false,
     answer: {
-      en: "B) The total value of a company's outstanding shares of stock",
-      si: "B) සමාගමක කැපී පෙනෙන කොටස්වල මුළු වටිනාකම",
+      en: "b) The total value of a company's outstanding shares of stock",
+      si: "b) සමාගමක කැපී පෙනෙන කොටස්වල මුළු වටිනාකම",
     },
   },
   {
     question: {
-      en: "Which global financial institution is primarily responsible for overseeing the international monetary system and offering financial assistance to countries facing balance-of-payments problems?",
-      si: "ජාත්‍යන්තර මූල්‍ය පද්ධතිය අධීක්‍ෂණය කිරීම සහ ගෙවුම් ශේෂ ගැටලුවලට මුහුණ දෙන රටවලට මූල්‍ය ආධාර පිරිනැමීම සඳහා මූලික වශයෙන් වගකිව යුතු ගෝලීය මූල්‍ය ආයතනය කුමක්ද?",
+      en: "What is the main focus of the World Bank?",
+      si: "පහත සඳහන් දේවල් අතුරින් ලෝක බැංකුවෙහි ප්‍රධාන කාර්යභාරය වනුයේ?",
     },
     type: "multiple-choice",
     choices: {
       en: [
-        "A) World Bank",
-        "B) International Monetary Fund (IMF)",
-        "C) World Trade Organization (WTO)",
-        "D) United Nations",
+        "a) Providing loans to developed countries",
+        "b) Promoting free trade agreements",
+        "c) Reducing poverty and supporting development projects in developing countries",
+        "d) Regulating international financial markets",
       ],
       si: [
-        "A) ලෝක බැංකුව",
-        "B) ජාත්‍යන්තර මුල්‍ය අරමුදල (IMF)",
-        "C) ලෝක වෙළඳ සංවිධානය (WTO)",
-        "D) එක්සත් ජාතීන්",
+        "a) සංවර්ධිත රටවලට ණය ලබා දීම",
+        "b) නිදහස් වෙළඳ ගිවිසුම් ප්‍රවර්ධනය කිරීම",
+        "c) දරිද්‍රතාවය අවම කිරීම සහ සංවර්ධනය වෙමින් පවතින රටවල සංවර්ධන ව්‍යාපෘති සඳහා සහාය වීම",
+        "d) ජාත්‍යන්තර මූල්‍ය වෙලඳපොලවල් නියාමනය කිරීම",
       ],
     },
     taken: false,
     answer: {
-      en: "B) International Monetary Fund (IMF)",
-      si: "B) ජාත්‍යන්තර මුල්‍ය අරමුදල (IMF)",
+      en: "c) Reducing poverty and supporting development projects in developing countries",
+      si: "c) දරිද්‍රතාවය අවම කිරීම සහ සංවර්ධනය වෙමින් පවතින රටවල සංවර්ධන ව්‍යාපෘති සඳහා සහාය වීම",
     },
   },
+  {
+    question: {
+      en: "Which entrepreneur from Sri Lanka is known for launching the successful fashion brand, ODEL?",
+      si: "සාර්ථක විලාසිතා සන්නාමයක්  වන ODEL සමාගමෙහි ර්මාතෘවරයා ලෙස හැඳින්වෙන ශ්‍රී ලාංකික ව්‍යවසායකයා කවුරුන්ද?"
+    },
+    type: "multiple-choice",
+    choices: {
+      en: [
+        "a) Otara Gunewardene",
+        "b) Dammika Perera",
+        "c) Dilith Jayaweera",
+        "d) Shirantha D. Cooray"
+      ],
+      si: [
+        "අ) ඔටාරා ගුණවර්ධන",
+        "b) දම්මික පෙරේරා",
+        "c) දිලිත් ජයවීර",
+        "d) ශිරන්ත ඩී.කුරේ"
+      ]
+    },
+    taken: false,
+    answer: {
+      en: "a) Otara Gunewardene",
+      si: "අ) ඔටාරා ගුණවර්ධන"
+    }
+  },
+  {
+    question: {
+      en: "What is the primary role of the Financial Stability Board (FSB)?",
+      si: "මූල්‍ය ස්ථාවරත්ව මණ්ඩලයේ (FSB) මූලික කාර්යභාරය කුමක්ද?"
+    },
+    type: "multiple-choice",
+    choices: {
+      en: [
+        "a) To manage public debt",
+        "b) To promote global financial stability",
+        "c) To provide direct financial assistance to countries",
+        "d) To oversee the global stock markets"
+      ],
+      si: [
+        "අ) රාජ්‍ය ණය කළමනාකරණය කිරීමට",
+        "b) ගෝලීය මූල්‍ය ස්ථාවරත්වය ප්‍රවර්ධනය කිරීම",
+        "c) රටවලට සෘජු මූල්‍ය ආධාර සැපයීම",
+        "d) ගෝලීය කොටස් වෙලඳපොලවල් අධීක්ෂණය කිරීම."
+      ]
+    },
+    taken: false,
+    answer: {
+      en: "b) To promote global financial stability",
+      si: "b) ගෝලීය මූල්‍ය ස්ථාවරත්වය ප්‍රවර්ධනය කිරීම"
+    }
+  }
 ];

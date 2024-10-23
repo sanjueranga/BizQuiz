@@ -1,8 +1,20 @@
 const round1Questions = [
   {
     question: {
+      en: "Which Sri Lankan born Canadian-American billionaire is known for his works as an entrepreneur?",
+      si: "ව්‍යවසායකයෙකු ලෙස ප්‍රසිද්ධියට පත් ශ්‍රී ලංකාවේ උපත ලද, කැනේඩියානු-ඇමරිකානු බිලියනපතියා කවුද?",
+    },
+    type: "open-ended",
+    taken: false,
+    answer: {
+      en: "Chamath Palihapitiya",
+      si: "චමත් පලිහපිටිය",
+    },
+  },
+  {
+    question: {
       en: "Which rocket, developed by Elon Musk, completed a world-first feat by having part of it captured on its return to the launch pad?",
-      si: "Elon musk ගෙ space X ආයතනය විසින් නිෂ්පාදිත රොකට් අතරින් ගුවන් ගත කළ පසු, දියත් කළ කුලුණේ යාන්ත්‍රික අත්මගින්, ප්‍රථම වරට නැවත අල්ලා ගත් රොකට්ටුවේ නම කුමක්ද?",
+      si: "Elon musk ගෙ Space X ආයතනය විසින් නිෂ්පාදිත රොකට් අතරින් ගුවන් ගත කළ පසු, දියත් කළ කුලුණේ යාන්ත්‍රික අත්මගින්, ප්‍රථම වරට නැවත අල්ලා ගත් රොකට්ටුවේ නම කුමක්ද?",
     },
     type: "open-ended",
     taken: false,
@@ -13,26 +25,26 @@ const round1Questions = [
   },
   {
     question: {
-      en: "Which scientist is credited with the invention of the World Wide Web?",
-      si: "‘ලෝක ව්‍යාප්ත වෙබ්’ සොයාගැනීමේ ගෞරවය හිමිවන්නේ කුමන විද්‍යාඥයාද?",
+      en: "What was the initial selling product of world-famous E-commerce platform known as ‘Amazon’?",
+      si: "‘Amazon’ ලෙස හඳුන්වන ලෝක ප්‍රසිද්ධ වාණිජ වෙබ් අඩවියේ ආරම්භක විකුණුම් නිෂ්පාදනය කුමක්ද?",
     },
     type: "open-ended",
     taken: false,
     answer: {
-      en: "Tim Berners-Lee",
-      si: "ටීම් බර්නර්ස්-ලී",
+      en: "Books",
+      si: "පොත්",
     },
   },
   {
     question: {
-      en: "Which American engineer is widely regarded as the father of cell phones?",
-      si: "ජංගම දුරකථනවල පියා ලෙස පුළුල් ලෙස සලකනු ලබන්නේ කුමන ඇමරිකානු ඉංජිනේරුවරයාද?",
+      en: "Among the infrastructure development projects in Sri Lanka, under the Public Private Partnership (PPP) system, which project was started in the year 2014 based on the Colombo district?",
+      si: "ශ්‍රී ලංකාවේ යටිතල පහසුකම් සංවර්ධන ව්‍යාපෘති අතුරින්, රාජ්‍ය පෞද්ගලික හවුල්කාරීත්ව ක්‍රමවේදය (PPP) යටතේ 2014 වර්ෂයේ දී කොළඹ දිස්ත්‍රික්කය මූලික කරගෙන ආරම්භ කරන ව්‍යාපෘතිය කුමක් ද?",
     },
     type: "open-ended",
     taken: false,
     answer: {
-      en: "Martin Cooper",
-      si: "මාටින් කූපර්",
+      en: "Colombo Fort City",
+      si: "කොළඹ කොටුව නගරය",
     },
   },
   {
@@ -44,7 +56,7 @@ const round1Questions = [
     taken: false,
     answer: {
       en: "Gross Domestic Product (GDP)",
-      si: "ස්වදේශීය ස්කන්ධ ය",
+      si: "දළ දේශීය නිෂ්පාදනය (GDP)",
     },
   },
   {
@@ -55,8 +67,8 @@ const round1Questions = [
     type: "open-ended",
     taken: false,
     answer: {
-      en: "Computer mouse",
-      si: "පරිගණක මූසිකය",
+      en: "Mouse",
+      si: "මූසිකය",
     },
   },
   {
@@ -67,20 +79,8 @@ const round1Questions = [
     type: "open-ended",
     taken: false,
     answer: {
-      en: "Control inflation and stabilize the economy",
-      si: "උද්ධමනය පාලනය කිරීම සහ ආර්ථිකය ස්ථායී කිරීම",
-    },
-  },
-  {
-    question: {
-      en: "Who designed the first modern air-conditioning system?",
-      si: "පළමු නවීන වායු සමීකරණ පද්ධතිය නිර්මාණය කළේ කවුද?",
-    },
-    type: "open-ended",
-    taken: false,
-    answer: {
-      en: "Willis Carrier",
-      si: "විලිස් කෙරියර්",
+      en: "To control inflation and maintain price stability",
+      si: "උද්ධමනය පාලනය කිරීම සහ මිල ස්ථාවරත්වය පවත්වා ගැනීම",
     },
   },
   {
@@ -91,32 +91,20 @@ const round1Questions = [
     type: "open-ended",
     taken: false,
     answer: {
-      en: "Ralph Baer",
-      si: "රල්ෆ් බෙයර්",
+      en: "Ralph Henry Baer",
+      si: "රැල්ෆ් හෙන්රි බෙයර්",
     },
   },
   {
     question: {
-      en: "What is inflation?",
-      si: "උද්ධමනය යනු කුමක්ද?",
+      en: "Give a name of one of the recipients (there were three persons) of the 2024 Nobel Memorial Prize in Economics for their work on how institutions influence economic development?",
+      si: "2024 ආර්ථික විද්‍යාව සඳහා වූ නොබෙල් අනුස්මරණ ත්‍යාගලාභීන් තිදෙනා අතරින් එක් අයෙකු නම් කරන්න.",
     },
     type: "open-ended",
     taken: false,
     answer: {
-      en: "The increase in the general price level of goods and services over time",
-      si: "කාලයත් සමඟ භාණ්ඩ හා සේවාවල පොදු මිල මට්ටම ඉහළ යාම",
-    },
-  },
-  {
-    question: {
-      en: "Who were the recipients of the 2024 Nobel Memorial Prize in Economics for their work on how institutions influence economic development?",
-      si: "‘ආයතන’, ආර්ථික සංවර්ධනයට බලපාන්නේ කෙසේද යන්න පිළිබඳ ඔවුන්ගේ ක්‍රියාකාරකම් සඳහා 2024 ආර්ථික විද්‍යාව සඳහා වූ නොබෙල් අනුස්මරණ ත්‍යාගලාභීන් කවුරුන්ද?",
-    },
-    type: "open-ended",
-    taken: false,
-    answer: {
-      en: "Claudia Goldin",
-      si: "ක්ලෝඩියා ගෝල්ඩින්",
+      en: "Daron Acemoglu, Simon Johnson, and James Robinson",
+      si: "ඩැරන් අසෙමොග්ලු, සයිමන් ජොන්සන්, ජේම්ස් රොබින්සන්",
     },
   },
   {
@@ -127,8 +115,32 @@ const round1Questions = [
     type: "open-ended",
     taken: false,
     answer: {
-      en: "Keynesian Economics",
+      en: "Keynesian economics",
       si: "කේන්සියානු ආර්ථික විද්‍යාව",
+    },
+  },
+  {
+    question: {
+      en: "Give a name of one of the recipients (there were two persons) of the 2018 Nobel Memorial Prize winner in Economic Sciences?",
+      si: "2018 ආර්ථික විද්‍යාව පිළිබඳ නොබෙල් අනුස්මරණ ත්‍යාගලාභීන් දෙදෙනා අතරින් එක් අයෙකු නම් කරන්න.",
+    },
+    type: "open-ended",
+    taken: false,
+    answer: {
+      en: "Paul Romer, William D. Nordhaus",
+      si: "පෝල් රෝමර්, විලියම් ඩී. නෝර්ඩ්හවුස්",
+    },
+  },
+  {
+    question: {
+      en: "Who is the current (as 2024) president of the World Bank Group?",
+      si: "ලෝක බැංකු සමූහයේ වත්මන් සභාපතිවරයා කවුද?",
+    },
+    type: "open-ended",
+    taken: false,
+    answer: {
+      en: "Ajay Banga",
+      si: "අජය බංගා",
     },
   },
   {
@@ -139,132 +151,106 @@ const round1Questions = [
     type: "multiple-choice",
     choices: {
       en: [
-        "analyzing business environmental conditions",
-        "planning administrative activities of the business",
-        "finding how to supply the capital",
-        "selecting a better business place",
+        "a) Analyzing business environmental conditions",
+        "b) Planning administrative activities of the business",
+        "c) Finding how to supply the capital",
+        "d) Selecting a better business place",
       ],
       si: [
-        "ව්යාපාරික පාරිසරික තත්ත්වයන් විශ්ලේෂණය කිරීම",
-        "ව්යාපාරයේ පරිපාලන කටයුතු සැලසුම් කිරීම",
-        "ප්රාග්ධනය සපයන ආකාරය සොයා ගැනීම",
-        "වඩා හොඳ ව්‍යාපාරික ස්ථානයක් තෝරා ගැනීම",
+        "a) ව්යාපාරික පාරිසරික තත්ත්වයන් විශ්ලේෂණය කිරීම",
+        "b) ව්යාපාරයේ පරිපාලන කටයුතු සැලසුම් කිරීම",
+        "c) ප්රාග්ධනය සපයන ආකාරය සොයා ගැනීම",
+        "d) වඩා හොඳ ව්‍යාපාරික ස්ථානයක් තෝරා ගැනීම",
       ],
     },
     taken: false,
     answer: {
-      en: "analyzing business environmental conditions",
-      si: "ව්යාපාරික පාරිසරික තත්ත්වයන් විශ්ලේෂණය කිරීම",
+      en: "a) Analyzing business environmental conditions",
+      si: "අ) ව්යාපාරික පාරිසරික තත්ත්වයන් විශ්ලේෂණය කිරීම",
     },
   },
   {
     question: {
-      en: "“Covid-19 pandemic influences the business.” This factor belongs to",
-      si: "‘‘Covid-19 වසංගතය, ව්‍යාපාරයට බලපෑම් කරයි.” මෙම සාධකය අයත් වේ",
+      en: "Covid-19 pandemic influences the business. This factor belongs to",
+      si: "‘Covid-19 වසංගතය, ව්‍යාපාරයට බලපෑම් කරයි.’ මෙම සාධකය අයත් වේ",
     },
     type: "multiple-choice",
     choices: {
       en: [
-        "demographic environment",
-        "natural environment",
-        "social and cultural environment",
-        "social environment",
+        "a) Financial risk",
+        "b) Entrepreneurial risk",
+        "c) Business environmental risk",
+        "d) Production risk",
       ],
       si: [
-        "ජනවිකාස පරිසරය",
-        "ස්වභාවික පරිසරය",
-        "සමාජ හා සංස්කෘතික පරිසරය",
-        "සමාජ පරිසරය",
+        "a) මූල්‍ය අවදානම",
+        "b) ව්‍යවසායක අවදානම",
+        "c) ව්‍යපාරික පාරිසරික අවදානම",
+        "d) නිෂ්පාදන අවදානම",
       ],
     },
     taken: false,
     answer: {
-      en: "social environment",
-      si: "සමාජ පරිසරය",
+      en: "c) Business environmental risk",
+      si: "ඇ) ව්‍යපාරික පාරිසරික අවදානම",
     },
   },
   {
     question: {
-      en: "A major social factor against entrepreneurship is",
+      en: "A major social factor against the entrepreneurship is",
       si: "ව්‍යවසායකත්වයට එරෙහි ප්‍රධාන සමාජ සාධකයකි",
     },
     type: "multiple-choice",
     choices: {
       en: [
-        "encouraging entrepreneurship through education",
-        "having sufficient government incentives for entrepreneurship",
-        "having high recognition for salaried jobs",
-        "desire to take risks of new entrepreneurs",
+        "a) encouraging the entrepreneurship through education.",
+        "b) having sufficient government incentives for the entrepreneurship",
+        "c) having high recognition for salaried jobs.",
+        "d) desire to take risks of new entrepreneurs.",
       ],
       si: [
-        "අධ්‍යාපනය තුළින් ව්‍යවසායකත්වය දිරිමත් කිරීම",
-        "ව්‍යවසායකත්වය සඳහා ප්‍රමාණවත් රජයේ දිරිගැන්වීම් තිබීම",
-        "වැටුප් සහිත රැකියා සඳහා ඉහළ පිළිගැනීමක් තිබීම",
-        "නව ව්‍යවසායකයින්ගේ අවදානම් ගැනීමට කැමැත්ත",
+        "a) අධ්‍යාපනය තුළින් ව්‍යවසායකත්වය දිරිමත් කිරීම.",
+        "b) ව්‍යවසායකත්වය සඳහා ප්‍රමාණවත් රජයේ දිරිගැන්වීම් තිබීම",
+        "c) වැටුප් සහිත රැකියා සඳහා ඉහළ පිළිගැනීමක් තිබීම.",
+        "d) නව ව්‍යවසායකයින්ගේ අවදානම් ගැනීමට ඇති ආශාව",
       ],
     },
     taken: false,
     answer: {
-      en: "having high recognition for salaried jobs",
-      si: "වැටුප් සහිත රැකියා සඳහා ඉහළ පිළිගැනීමක් තිබීම",
+      en: "c) having high recognition for salaried jobs.",
+      si: "c) වැටුප් සහිත රැකියා සඳහා ඉහළ පිළිගැනීමක් තිබීම.",
     },
   },
   {
     question: {
-      en: "The most serious problem caused by inflation is",
-      si: "උද්ධමනයෙන් සිදුවන දරුණුම ගැටලුව කුමක්ද?",
+      en: "Who is the current (as 2024) 'Chairman of Central Bank of Sri Lanka'?",
+      si: "වත්මන් 'ශ්‍රී ලංකා මහ බැංකුවේ සභාපති' කවුද?",
     },
     type: "multiple-choice",
     choices: {
       en: [
-        "rise in prices",
-        "loss of government revenue",
-        "rise in wages",
-        "falling purchasing power",
+        "a) Dr P. Nandalal Weerasinghe",
+        "b) John Exter",
+        "c) Dr. Ravi Rathnayake",
+        "d) Prof. Priyanga Dunusinghe",
       ],
       si: [
-        "මිල ඉහළ යාම",
-        "රජයේ ආදායම් අහිමිවීම",
-        "වැටුප් ඉහළ යාම",
-        "මිලදී ගැනීමේ ශක්තිය අඩු වීම",
+        "a) ආචාර්ය පී. නන්දලාල් වීරසිංහ",
+        "b) ජෝන් එක්ස්ටර්",
+        "c) ආචාර්ය රවී රත්නායක",
+        "d) මහාචාර්ය ප්‍රියංග දුනුසිංහ",
       ],
     },
     taken: false,
     answer: {
-      en: "falling purchasing power",
-      si: "මිලදී ගැනීමේ ශක්තිය අඩු වීම",
-    },
-  },
-  {
-    question: {
-      en: "One of the most important abilities an entrepreneur should have is",
-      si: "ව්‍යවසායකයෙකුට තිබිය යුතු වැදගත්ම හැකියාවක් වන්නේ",
-    },
-    type: "multiple-choice",
-    choices: {
-      en: [
-        "innovative thinking ability",
-        "imitative ability",
-        "ability to analyze data",
-        "ability to plan",
-      ],
-      si: [
-        "නවෝත්පාදන සිතුවිලි හැකියාව",
-        "අනුකරණ හැකියාව",
-        "දත්ත විශ්ලේෂණය කිරීමේ හැකියාව",
-        "සැලසුම් කිරීමේ හැකියාව",
-      ],
-    },
-    taken: false,
-    answer: {
-      en: "innovative thinking ability",
-      si: "නවෝත්පාදන සිතුවිලි හැකියාව",
+      en: "a) Dr P. Nandalal Weerasinghe",
+      si: "a) ආචාර්ය පී. නන්දලාල් වීරසිංහ",
     },
   },
   {
     question: {
       en: "What is the name of the largest stock exchange in the world by market capitalization?",
-      si: "වෙළෙඳපොළ ප්‍රාග්ධනීකරණය අනුව ලෝකයේ විශාලතම කොටස් හුවමාරුවේ නම කුමක්ද?"
+      si: "වෙළෙඳපොළ ප්‍රාග්ධනීකරණය අනුව ලෝකයේ විශාලතම කොටස් හුවමාරුවේ නම කුමක්ද?",
     },
     type: "multiple-choice",
     choices: {
@@ -272,155 +258,135 @@ const round1Questions = [
         "a) London Stock Exchange (LSE)",
         "b) Tokyo Stock Exchange (TSE)",
         "c) New York Stock Exchange (NYSE)",
-        "d) NASDAQ"
+        "d) India Stock Exchange",
       ],
       si: [
-        "අ) ලන්ඩන් කොටස් හුවමාරුව (LSE)",
-        "ආ) ටෝකියෝ කොටස් හුවමාරුව (TSE)",
-        "ඇ) නිව් යෝර්ක් කොටස් හුවමාරුව (NYSE)",
-        "ඈ) NASDAQ"
-      ]
+        "a) ලන්ඩන් කොටස් හුවමාරුව (LSE)",
+        "b) ටෝකියෝ කොටස් හුවමාරුව (TSE)",
+        "c) නිව් යෝර්ක් කොටස් හුවමාරුව (NYSE)",
+        "d) ඉන්දීය කොටස් හුවමාරුව",
+      ],
     },
     taken: false,
     answer: {
       en: "c) New York Stock Exchange (NYSE)",
-      si: "ඇ) නිව් යෝර්ක් කොටස් හුවමාරුව (NYSE)"
-    }
+      si: "c) නිව් යෝර්ක් කොටස් හුවමාරුව (NYSE)",
+    },
   },
   {
     question: {
       en: "Which economic concept refers to the decline in the purchasing power of a currency over time?",
-      si: "කාලයත් සමඟ මුදල් ඒකකයක මිලදී ගැනීමේ හැකියාව පහත වැටීම ගැන සඳහන් කරන්නේ කුමන ආර්ථික සංකල්පයද?"
+      si: "කාලයත් සමඟ මුදල් ඒකකයක මිලදී ගැනීමේ හැකියාව පහත වැටීම ගැන සඳහන් කරන්නේ කුමන ආර්ථික සංකල්පයද?",
     },
     type: "multiple-choice",
     choices: {
-      en: [
-        "a) Deflation",
-        "b) Inflation",
-        "c) Stagflation",
-        "d) Recession"
-      ],
-      si: [
-        "අ) අවධමනය",
-        "ආ) උද්ධමනය",
-        "ඇ) එකතැන පල්වීම",
-        "ඈ) අවපාතය"
-      ]
+      en: ["a) Deflation", "b) Inflation", "c) Confirmation", "d) Recession"],
+      si: ["a) අවධමනය", "b) උද්ධමනය", "c) තහවුරු කිරීම", "d) අවපාතය"],
     },
     taken: false,
     answer: {
       en: "b) Inflation",
-      si: "ආ) උද්ධමනය"
-    }
+      si: "b) උද්ධමනය",
+    },
   },
   {
     question: {
       en: "Who is the current chair of the Federal Reserve in the United States (as of 2024)?",
-      si: "එක්සත් ජනපදයේ (2024 වන විට) ෆෙඩරල් සංචිතයේ වත්මන් සභාපති කවුද?"
+      si: "එක්සත් ජනපදයේ (2024 වන විට) ෆෙඩරල් සංචිතයේ වත්මන් සභාපති කවුද?",
     },
     type: "multiple-choice",
     choices: {
       en: [
-        "A) Janet Yellen",
-        "B) Ben Bernanke",
-        "C) Jerome Powell",
-        "D) Alan Greenspan"
+        "a) Janet Yellen",
+        "b) Ben Bernanke",
+        "c) Jerome Powell",
+        "d) Alan Greenspan",
       ],
       si: [
-        "A) ජැනට් යෙලන්",
-        "B) බෙන් බර්නාන්කේ",
-        "C) ජෙරොම් පවෙල්",
-        "D) ඇලන් ග්‍රීන්ස්පන්"
-      ]
+        "a) ජැනට් යෙලන්",
+        "b) බෙන් බර්නාන්කේ",
+        "c) ජෙරොම් පවෙල්",
+        "d) ඇලන් ග්‍රීන්ස්පන්",
+      ],
     },
     taken: false,
     answer: {
-      en: "C) Jerome Powell",
-      si: "C) ජෙරොම් පවෙල්"
-    }
+      en: "c) Jerome Powell",
+      si: "c) ජෙරොම් පවෙල්",
+    },
   },
   {
     question: {
       en: "Which country is the largest exporter of goods in the world (as of 2024)?",
-      si: "ලෝකයේ විශාලතම භාණ්ඩ අපනයනකරු (2024 වන විට) කුමන රටද?"
+      si: "ලෝකයේ විශාලතම භාණ්ඩ අපනයනකරු (2024 වන විට) කුමන රටද?",
     },
     type: "multiple-choice",
     choices: {
-      en: [
-        "A) United States",
-        "B) China",
-        "C) Germany",
-        "D) Japan"
-      ],
-      si: [
-        "A) එක්සත් ජනපදය",
-        "B) චීනය",
-        "C) ජර්මනිය",
-        "D) ජපානය"
-      ]
+      en: ["a) United States", "b) China", "c) Germany", "d) Japan"],
+      si: ["a) එක්සත් ජනපදය", "b) චීනය", "c) ජර්මනිය", "d) ජපානය"],
     },
     taken: false,
     answer: {
-      en: "B) China",
-      si: "B) චීනය"
-    }
+      en: "b) China",
+      si: "b) චීනය",
+    },
   },
   {
     question: {
-      en: "What is the term for the market structure where a small number of firms dominate the industry?",
-      si: "කුඩා සමාගම් සංඛ්‍යාවක් කර්මාන්තයේ ආධිපත්‍යය දරන වෙළඳපල ව්‍යුහය සඳහා වන යෙදුම කුමක්ද?"
+      en: "Which organization in Sri Lanka primarily supports small and medium enterprises (SMEs) through financing and development programs?",
+      si: "මූල්‍ය සහ සංවර්ධන වැඩසටහන් හරහා කුඩා හා මධ්‍ය පරිමාණ ව්‍යවසායක (SMEs) සඳහා මූලික වශයෙන් සහාය දක්වන ශ්‍රී ලංකාවේ කුමන සංවිධානයද?",
     },
     type: "multiple-choice",
     choices: {
       en: [
-        "a) Monopoly",
-        "b) Perfect Competition",
-        "c) Oligopoly",
-        "d) Monopsony"
+        "a) Sri Lanka Export Development Board",
+        "b) National Enterprise Development Authority",
+        "c) Industrial Development Board",
+        "d) Board of Investment of Sri Lanka",
       ],
       si: [
-        "අ) ඒකාධිකාරය",
-        "ආ) පරිපූර්ණ තරඟය",
-        "ඇ) ඔලිගොපොලි",
-        "ඈ) මොනොප්සොනි"
-      ]
+        "a) ශ්‍රී ලංකා අපනයන සංවර්ධන මණ්ඩලය",
+        "b) ජාතික ව්‍යවසාය සංවර්ධන අධිකාරිය",
+        "c) කාර්මික සංවර්ධන මණ්ඩලය",
+        "d) ශ්‍රී ලංකා ආයෝජන මණ්ඩලය",
+      ],
     },
     taken: false,
     answer: {
-      en: "c) Oligopoly",
-      si: "ඇ) ඔලිගොපොලි"
-    }
+      en: "b) National Enterprise Development Authority",
+      si: "b) ජාතික ව්‍යවසාය සංවර්ධන අධිකාරිය",
+    },
   },
   {
     question: {
-      en: "What does FDI stand for?",
-      si: "FDI යන්නෙන් අදහස් කරන්නේ කුමක්ද?"
+      en: "What role does the Sri Lanka Export Development Board (SLEDB) play in entrepreneurship?",
+      si: "ශ්‍රී ලංකා අපනයන සංවර්ධන මණ්ඩලය (SLEDB) ව්‍යවසායකත්වය තුළ ඉටු කරන කාර්යභාරය කුමක්ද?",
     },
     type: "multiple-choice",
     choices: {
       en: [
-        "a) Foreign Development Investment",
-        "b) Foreign Direct Investment",
-        "c) Financial Domestic Investment",
-        "d) Foreign Debt Investment"
+        "a) It provides loans to entrepreneurs.",
+        "b) It facilitates the export of Sri Lankan products.",
+        "c) It regulates market prices.",
+        "d) It offers vocational training programs.",
       ],
       si: [
-        "අ) විදේශ සංවර්ධන ආයෝජන",
-        "ආ) සෘජු විදේශ ආයෝජන",
-        "ඇ) මූල්ය දේශීය ආයෝජන",
-        "ඈ) විදේශ ණය ආයෝජන"
-      ]
+        "a) එය ව්‍යවසායකයින්ට ණය ලබා දෙයි.",
+        "b) එය ශ්‍රී ලංකාවේ නිෂ්පාදන අපනයනය සඳහා පහසුකම් සපයයි.",
+        "c) එය වෙළඳපල මිල නියාමනය කරයි.",
+        "d) එය වෘත්තීය පුහුණු වැඩසටහන් ඉදිරිපත් කරයි.",
+      ],
     },
     taken: false,
     answer: {
-      en: "b) Foreign Direct Investment",
-      si: "ආ) සෘජු විදේශ ආයෝජන"
-    }
+      en: "b) It facilitates the export of Sri Lankan products",
+      si: "b) එය ශ්‍රී ලංකාවේ නිෂ්පාදන අපනයනය සඳහා පහසුකම් සපයයි.",
+    },
   },
   {
     question: {
       en: "Which major international organization provides financial assistance and advice to member countries facing economic crises?",
-      si: "ආර්ථික අර්බුදවලට මුහුණ දෙන සාමාජික රටවලට මූල්‍ය ආධාර සහ උපදෙස් සපයන ප්‍රධාන ජාත්‍යන්තර සංවිධානය කුමක්ද?"
+      si: "ආර්ථික අර්බුදවලට මුහුණ දෙන සාමාජික රටවලට මූල්‍ය ආධාර සහ උපදෙස් සපයන ප්‍රධාන ජාත්‍යන්තර සංවිධානය කුමක්ද?",
     },
     type: "multiple-choice",
     choices: {
@@ -428,25 +394,25 @@ const round1Questions = [
         "a) World Bank",
         "b) World Trade Organization (WTO)",
         "c) International Monetary Fund (IMF)",
-        "d) Bank for International Settlements (BIS)"
+        "d) Bank for International Settlements (BIS)",
       ],
       si: [
-        "අ) ලෝක බැංකුව",
-        "ආ) ලෝක වෙළඳ සංවිධානය (WTO)",
-        "ඇ) ජාත්‍යන්තර මුල්‍ය අරමුදල (IMF)",
-        "ඈ) ජාත්‍යන්තර පියවීම් සඳහා බැංකුව (BIS)"
-      ]
+        "a) ලෝක බැංකුව",
+        "b) ලෝක වෙළඳ සංවිධානය (WTO)",
+        "c) ජාත්‍යන්තර මුල්‍ය අරමුදල (IMF)",
+        "d) ජාත්‍යන්තර පියවීම් සඳහා බැංකුව (BIS)",
+      ],
     },
     taken: false,
     answer: {
       en: "c) International Monetary Fund (IMF)",
-      si: "ඇ) ජාත්‍යන්තර මුල්‍ය අරමුදල (IMF)"
-    }
+      si: "c) ජාත්‍යන්තර මුල්‍ය අරමුදල (IMF)",
+    },
   },
   {
     question: {
       en: "What is a monopoly?",
-      si: "ඒකාධිකාරයක් යනු කුමක්ද?"
+      si: "ඒකාධිකාරයක් යනු කුමක්ද?",
     },
     type: "multiple-choice",
     choices: {
@@ -454,19 +420,19 @@ const round1Questions = [
         "a) A market structure with many firms competing",
         "b) A market structure where one firm controls the entire market",
         "c) A type of government intervention in the economy",
-        "d) A situation where prices are set by supply and demand"
+        "d) A situation where prices are set by supply and demand",
       ],
       si: [
-        "අ) බොහෝ සමාගම් තරඟ කරන වෙළඳපල ව්‍යුහයක්",
+        "a) බොහෝ සමාගම් තරඟ කරන වෙළඳපල ව්‍යුහයක්",
         "b) එක් සමාගමක් මුළු වෙළඳපලම පාලනය කරන වෙළඳපල ව්‍යුහයක්",
-        "ඇ) ආර්ථිකය තුළ රජයේ මැදිහත්වීම් වර්ගයකි",
-        "ඈ) සැපයුම සහ ඉල්ලුම අනුව මිල නියම කරන තත්වයක්"
-      ]
+        "c) ආර්ථිකය තුළ රජයේ මැදිහත්වීම් වර්ගයකි",
+        "d) සැපයුම සහ ඉල්ලුම අනුව මිල නියම කරන තත්වයක්",
+      ],
     },
     taken: false,
     answer: {
       en: "b) A market structure where one firm controls the entire market",
-      si: "b) එක් සමාගමක් මුළු වෙළඳපලම පාලනය කරන වෙළඳපල ව්‍යුහයක්"
-    }
-  }
+      si: "b) එක් සමාගමක් මුළු වෙළඳපලම පාලනය කරන වෙළඳපල ව්‍යුහයක්",
+    },
+  },
 ];
