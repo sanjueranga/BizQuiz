@@ -266,7 +266,7 @@ body {
 }
 /* Open-ended Question Styles */
 .open-ended-text {
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: 600;
   text-align: center;
   padding: 2rem;
@@ -275,6 +275,10 @@ body {
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   color: var(--primary-navy);
+}
+
+.open-ended-eng {
+  font-size: 3.5rem;
 }
 
 .hero-banner {

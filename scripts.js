@@ -85,7 +85,7 @@ function displayQuestion(index) {
 
     // Display both English and Sinhala questions
     document.getElementById("open-ended-text").innerHTML = `
-      <p> <strong>${question.question.en}</strong></p>
+      <p> <strong class={open-ended-eng}>${question.question.en}</strong></p>
       </br>
       <p>${question.question.si}</p>
     `;
