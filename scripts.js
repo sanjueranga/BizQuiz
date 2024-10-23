@@ -87,7 +87,7 @@ function displayQuestion(index) {
     document.getElementById("open-ended-text").innerHTML = `
       <p> <strong class={open-ended-eng}>${question.question.en}</strong></p>
       </br>
-      <p>${question.question.si}</p>
+      <p><strong> ${question.question.si}</strong></p>
     `;
 
     // Display both English and Sinhala answers (if needed)
@@ -101,7 +101,7 @@ function displayQuestion(index) {
     document.getElementById("question-text").innerHTML = `
       <p> <strong>${question.question.en}</strong></p>
       </br>
-      <p>${question.question.si}</p>
+      <p><strong> ${question.question.si}</strong></p>
     `;
 
     const choicesList = document.getElementById("choices-list");

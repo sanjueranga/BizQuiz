@@ -17,17 +17,19 @@ function displayQuestion(index) {
     document.getElementById("open-ended").classList.remove("hidden");
 
     document.getElementById("open-ended-text").innerHTML = `
-      <p>${question.question.en}</p>
-      <p>${question.question.si}</p>
-    `;
+    <p> <strong class={open-ended-eng}>${question.question.en}</strong></p>
+    </br>
+    <p><strong> ${question.question.si}</strong></p>
+  `;
   } else if (question.type === "multiple-choice") {
     document.getElementById("open-ended").classList.add("hidden");
     document.getElementById("multiple-choice").classList.remove("hidden");
 
-    document.getElementById("question-text").innerHTML = `
-      <p>${question.question.en}</p>
-      <p>${question.question.si}</p>
-    `;
+    document.getElementById("open-ended-text").innerHTML = `
+    <p> <strong class={open-ended-eng}>${question.question.en}</strong></p>
+    </br>
+    <p><strong> ${question.question.si}</strong></p>
+  `;
 
     const choicesList = document.getElementById("choices-list");
     choicesList.innerHTML = "";

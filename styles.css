@@ -226,17 +226,18 @@ body {
 }
 
 .question-text {
-  font-size: 1.8rem;
+  font-size: 2rem;
   margin: 1.5rem 0;
   padding: 1rem;
   background-color: var(--gray-light);
   border-radius: 8px;
+  color: var(--primary-navy);
 }
 
 .choices-list {
   list-style: none;
   margin: 1rem 0;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 
 .choices-list li {
@@ -275,6 +276,7 @@ body {
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   color: var(--primary-navy);
+  min-height: 400px;
 }
 
 .open-ended-eng {
@@ -355,4 +357,8 @@ body {
     margin: 2rem;
     gap: 1rem;
   }
+}
+
+#open-ended {
+  min-height: 400px;
 }
